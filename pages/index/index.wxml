@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<image src="/assets/bg1.jpeg" class="bg"></image>
+<view class="parent_container">
+  <view class="children_container">
+    <button bindtap="a1" class="_button" style="width:250px;line-height:80px">心理测试</button>
+    <view style="height:20px"></view>
+    <button bindtap="b1" class="_button" style="width:250px;line-height:80px">香薰精油推荐</button>
+    <view style="height:20px"></view>
+    <button bindtap="b2" class="_button" style="width:250px;line-height:80px">香味百科</button>
+    <view style="height:20px"></view>
+    <button bindtap="b3" class="_button" style="width:250px;line-height:80px">治愈音乐推荐</button>
+    <view style="height:20px"></view>
+    <button bindtap="a3" class="_button" style="width:250px;line-height:80px">提问箱</button>
+    <view style="height:20px"></view>
+    <button bindtap="a2" class="_button2" style="width:100px;line-height:45px">反馈</button>
+  </view>
+</view>

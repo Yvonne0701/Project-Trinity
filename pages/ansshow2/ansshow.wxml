@@ -1,0 +1,4 @@
+<!--pages/ansshow1/ansshow1.wxml-->
+<image src="/assets/bg2.jpeg" class="bg"></image>
+<h class="h">音乐推荐结果： </h>
+<text style="width:90%;" decode="true"  selectable="true">\n{{text}}</text>

@@ -1,0 +1,23 @@
+/* pages/ansshow1/ansshow1.wxss */
+page{
+  margin:0px;
+  padding:0px;
+  height:100%;
+  width:100%;
+  align-items: center;
+  display: flex;
+  flex-direction:column;
+}
+.h{
+  height:50px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.bg{
+  position:fixed;
+  top:0%;
+  left:0%;
+  height:120%;
+  width:120%;
+  z-index:-1;
+}

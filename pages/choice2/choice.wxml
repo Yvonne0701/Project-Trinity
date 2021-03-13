@@ -1,0 +1,50 @@
+<!--pages/choice.wxml-->
+<image src="/assets/bg2.jpeg" class="bg"></image>
+<view class="main">
+  <view class="question">
+    <text style="font-weight:bold">1、您存在以下哪些问题：（多选）</text>
+    <text style="color:red">*</text>
+    <view style="height:5px"></view>
+    <checkbox-group bindchange="checkboxChange1">
+      <label class="choicebox" wx:for="{{items1}}" wx:key="{{item.value}}">
+        <view class="choice">
+          <checkbox value="{{item.value}}" checked="{{item.checked}}"/>
+        </view>
+        <view class="choicename">{{item.name}}</view>
+      </label>
+    </checkbox-group>
+  </view>
+  <view style="height:35px"></view>
+  <view class="question">
+    <text style="font-weight:bold">2、在工作/学习时，您更容易在接受的基础上享受何种风格的音乐？（多选）</text>
+    <text style="color:red">*</text>
+    <view style="height:5px"></view>
+    <checkbox-group bindchange="checkboxChange2">
+      <label class="choicebox" wx:for="{{items2}}" wx:key="{{item.value}}">
+        <view class="choice">
+          <checkbox value="{{item.value}}" checked="{{item.checked}}"/>
+        </view>
+        <view class="choicename">{{item.name}}</view>
+      </label>
+    </checkbox-group>
+  </view>
+  <view style="height:35px"></view>
+  <view class="question">
+    <text style="font-weight:bold">3、在工作/学习时，您更容易在接受的基础上享受何种质感的音乐？（多选）</text>
+    <text style="color:red">*</text>
+    <view style="height:5px"></view>
+    <checkbox-group bindchange="checkboxChange3">
+      <label class="choicebox" wx:for="{{items3}}" wx:key="{{item.value}}">
+        <view class="choice">
+          <checkbox value="{{item.value}}" checked="{{item.checked}}"/>
+        </view>
+        <view class="choicename">{{item.name}}</view>
+      </label>
+    </checkbox-group>
+  </view>
+  <view style="height:15px"></view>
+  <text style="{{alert}}">*请确保您填写了每一道必选题！</text>
+  <view style="height:15px"></view>
+  <button bindtap="onclicked">提交</button>
+  <view style="height:35px"></view>
+</view>

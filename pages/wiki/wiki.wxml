@@ -1,0 +1,14 @@
+<!--pages/wiki/wiki.wxml-->
+<image src="/assets/bg2.jpeg" class="bg"></image>
+<view class="_tmp" ></view>
+<view class="_box" >
+<view style="width:15px"></view>
+<input class="_input" placeholder="请输入您希望查询的香料名" bindinput="write" value="{{title}}"/>
+<view style="width:10px"></view>
+<image class="_button" src="/assets/search.png" bindtap="touched"></image>
+</view>
+<view class="_main">
+  <text decode="true">{{show}}</text>
+  <text style="font-weight:800" decode="true">{{boldtext}}</text>
+<view style="height:20px"></view>
+</view>

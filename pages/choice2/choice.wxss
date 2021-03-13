@@ -1,0 +1,22 @@
+/* pages/choice.wxss */
+.main{
+  position: absolute;
+  left:10%;
+  width:80%;
+}
+.question{
+  width:100%;
+}
+.choicebox{
+  margin-top:15px;
+  display: flex;
+  flex-direction: row;
+}
+.bg{
+  position:fixed;
+  top:0%;
+  left:0%;
+  height:120%;
+  width:120%;
+  z-index:-1;
+}

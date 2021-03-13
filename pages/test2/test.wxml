@@ -1,0 +1,9 @@
+<!--pages/test/test.wxml-->
+<image src="/assets/bg2.jpeg" class="bg"></image>
+<h class="h">提问箱</h>
+<text style="width:95%;" decode="true">请点击下面的按钮复制链接进入提问箱：</text>
+<view>
+    <view style="height:20px"></view>
+    <button bindtap="onclicked" class="_button" style="width:100px;line-height:50px;height:60px;">复制</button>
+    <view style="height:40px"></view>
+</view>

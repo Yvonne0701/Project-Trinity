@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/choice1/choice",
+    "pages/ansshow1/ansshow",
+    "pages/choice2/choice",
+    "pages/ansshow2/ansshow",
+    "pages/wiki/wiki",
+    "pages/test1/test",
+    "pages/test2/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
